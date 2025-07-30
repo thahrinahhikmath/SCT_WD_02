@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="app"> 
+  <div class="calculator">
+    <div class="display"> 
+      <input type="text" id="display" disabled />
+      <button id="erase">←</button>
+    </div>
+    <div class="buttons">
+
+<button class="operator" id="clear">C</button>
+<button class="operator">(</button>
+<button class="operator">)</button>
+<button class="operator">%</button>
+
+<button class="btn">7</button>
+<button class="btn">8</button>
+<button class="btn">9</button>
+<button class="operator">/</button>
+
+<button class="btn">4</button>
+<button class="btn">5</button>
+<button class="btn">6</button>
+<button class="operator">*</button>
+
+<button class="btn">1</button>
+<button class="btn">2</button>
+<button class="btn">3</button>
+<button class="operator">-</button>
+
+<button class="operator">.</button>
+<button class="btn">0</button>
+<button class="operator">+</button>
+<button class="operator" id="equals">=</button>
+    </div>
+    <button id="toggle-history">History</button>
+    <div class="history" id="history-section" style="display: none;">
+      <h3>Calculation</h3>
+      <ul id="history-list"></ul>
+    <div>
+  </div>
+</div>   
+  <script src="script.js"></script>
+</body>
+</html>
+
